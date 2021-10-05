@@ -18,18 +18,13 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+hoi {}, my name is {}! I Am Poweful Group Managing Bot With Some Extras Add To Your Group Now If You Have Any Questions About How To Use Me Please Give Me /help... 
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+Im A Group Manager Bot Maintained By  [Doreamonfans1](t.me/doreamonfans1).
 
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
-
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me..
+My future updates will be put into This Channel - [Disneyteam](t.me/disneygrou & My Support Group [Disney Team Chat(t.me/disneyteamchat).
 
 For more commands click /help...
-
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 
 """
 
@@ -50,10 +45,9 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+It took lots of work for [my creator](t.me/doreamonfans1) to get me to where I am now, and every donation helps \
+motivate him to make me even better. All the donation money will go to a better VPS to host me
+There are two ways of paying him; [phonepe](t.me/doreamonfans1), or [Gpay](t.me/doreamonfans1) You Will Be Directed To My Owner Ask Him For Qr Code."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -115,7 +109,7 @@ def send_help(chat_id, text, keyboard=None):
 @run_async
 def test(bot: Bot, update: Update):
     # pprint(eval(str(update)))
-    # update.effective_message.reply_text("Hola tester! _I_ *have* `markdown`", parse_mode=ParseMode.MARKDOWN)
+    # update.effective_message.reply_text("Hi tester! _I_ *have* `markdown`", parse_mode=ParseMode.MARKDOWN)
     update.effective_message.reply_text("This person edited a message")
     print(update.effective_message)
 
@@ -145,7 +139,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("waked up😏😏😏")
+        update.effective_message.reply_text("I Have waked Already😏😏😏")
 
 
 # for test purposes
