@@ -18,11 +18,11 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! I Am Poweful Group Managing Bot With Some Extras Add To Your Group Now If You Have Any Questions About How To Use Me Please Give Me /help... 
+hoi {}, my name is {}! I Am Poweful Group Managing EXECUTIVE Bot With Some Extras Add To Your Group Now If You Have Any Questions About How To Use Me Please Give Me /help... 
 
-Im A Group Manager Bot Maintained By  [Doreamonfans1](t.me/doreamonfans1).
+Im A Group Manager Bot Maintained By  [AZURE_ID](t.me/AZURE_ID).
 
-My future updates will be put into This Channel - [Disneyteam](t.me/disneygrou & My Support Group [Disney Team Chat(t.me/disneyteamchat).
+My future updates will be put into This Channel - [Support](t.me/nakama_asl & My Support Group [Girl Executive Chat(t.me/executive_girls).
 
 For more commands click /help...
 
@@ -45,7 +45,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/doreamonfans1) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](t.me/Azure_id) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me
 There are two ways of paying him; [phonepe](t.me/doreamonfans1), or [Gpay](t.me/doreamonfans1) You Will Be Directed To My Owner Ask Him For Qr Code."""
 
