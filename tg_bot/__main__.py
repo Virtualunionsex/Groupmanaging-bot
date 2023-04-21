@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! I Am Poweful Group Managing EXECUTIVE Bot With Some Extras Add To Your Group Now If You Have Any Questions About How To Use Me Please Give Me /help... 
+hoi {}, Nama saya {}! Hancock robot, robot yang sudah terdaftar di BPOM dan resmi mendapatkan sertifikat Halal dari MUI
 
 Im A Group Manager Bot Maintained By  [AZURE_ID](t.me/AZURE_ID).
 
