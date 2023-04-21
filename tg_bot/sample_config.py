@@ -10,12 +10,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "5862381673:AAFcmBM8sz6l-Ojc7gADdFr6m_nxwwCTBNQ"
-    OWNER_ID = "1659580762" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Gbotid"
+    API_KEY = "5851945481:AAHyxkGMsxi0bOipQSJmcZTHv6tbabFu_UU"
+    OWNER_ID = "1715348447" # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "cyellaku"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://vwrgtvmh:H7OSEHu_ceCg7QT4jRTbn7LL9qBu6z-1@rosie.db.elephantsql.com/vwrgtvmh'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
